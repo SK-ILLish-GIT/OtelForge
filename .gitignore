@@ -1,0 +1,39 @@
+# Secrets and local env
+.env
+.env.local
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Go build artifacts
+/api/server
+/worker/worker
+*.exe
+*.test
+*.out
+coverage.out
+
+# Node / frontend
+node_modules/
+web/node_modules/
+web/dist/
+*.tsbuildinfo
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cursor / BMAD local tooling (optional, not required to run OtelForge)
+_bmad-output/
+_bmad/
+.agents/
+.cursor/
+
+# Logs
+*.log
